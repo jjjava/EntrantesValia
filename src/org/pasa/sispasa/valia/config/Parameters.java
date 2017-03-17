@@ -11,9 +11,11 @@ public class Parameters {
 
     private static Parameters instance = null;
     private final MailConfig mailConfig;
+    private final ParametersBeanImpl parametersBean;
 
     private Parameters() {
-        mailConfig = new ParametersBeanImpl().getMailConfig();
+        this.parametersBean = new ParametersBeanImpl();
+        this.mailConfig = parametersBean.getMailConfig();
     }
 
     public static synchronized Parameters getInstance() {
@@ -23,15 +25,19 @@ public class Parameters {
         return instance;
     }
     
-    public String getMailServer(){
+    public String getValueByKey(String key){
+        return parametersBean.getValueByKey(key);
+    }
+
+    public String getMailServer() {
         return mailConfig.getServer();
     }
-    
-    public String getMailUser(){
+
+    public String getMailUser() {
         return mailConfig.getUser();
     }
-    
-    public String getMailPassword(){
+
+    public String getMailPassword() {
         return mailConfig.getPassword();
     }
 }

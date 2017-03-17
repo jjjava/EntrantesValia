@@ -10,7 +10,6 @@ import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import org.apache.log4j.Logger;
-import org.pasa.sispasa.valia.config.Parameters;
 import org.pasa.sispasa.valia.util.DateUtil;
 
 /**

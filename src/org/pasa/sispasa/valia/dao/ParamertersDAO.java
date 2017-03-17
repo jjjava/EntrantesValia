@@ -8,8 +8,5 @@ package org.pasa.sispasa.valia.dao;
  */
 public interface ParamertersDAO {
     
-    String getMailServer(String key);
-    String getMailUser(String key);
-    String getMailPassword(String key);    
-    
+    String getValue(String key);
 }

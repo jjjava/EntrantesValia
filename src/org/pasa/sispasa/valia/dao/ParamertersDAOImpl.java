@@ -20,21 +20,7 @@ public class ParamertersDAOImpl implements ParamertersDAO {
     }
 
     @Override
-    public String getMailServer(String key) {
-        return getValue(key);
-    }
-
-    @Override
-    public String getMailUser(String key) {
-        return getValue(key);
-    }
-
-    @Override
-    public String getMailPassword(String key) {
-        return getValue(key);
-    }
-
-    private String getValue(String key) {
+    public String getValue(String key) {
         String sql = "SELECT * FROM parametros WHERE parametros.chave = '" + key + "'";
         String value = "";
         Connection theConn = null;
