@@ -11,9 +11,9 @@ import java.util.zip.ZipOutputStream;
  * @author Hudson Schumaker
  * @version 1.0.1
  */
-public class ZipArquivo {
+public class ZipFile {
 
-    public ZipArquivo() {
+    public ZipFile() {
     }
 
     public void zip(String fileName, String pathIn, String pathOut) {
