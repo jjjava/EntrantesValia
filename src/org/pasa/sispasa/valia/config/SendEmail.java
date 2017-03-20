@@ -39,7 +39,9 @@ public class SendEmail {
             props.put("mail.smtp.auth", "true");
             props.put("mail.smtp.starttls.enable", "true");
 
-            Session s = Session.getDefaultInstance(props, new Authentication(Parameters.getInstance().getMailUser(), Parameters.getInstance().getMailPassword()));
+            Session s = Session.getDefaultInstance(props, new Authentication(Parameters.getInstance().getMailUser(), 
+                    Parameters.getInstance().getMailPassword()));
+            
             MimeMessage email = new MimeMessage(s);
             InternetAddress de = new InternetAddress(Parameters.getInstance().getMailUser());
             email.setFrom(de);

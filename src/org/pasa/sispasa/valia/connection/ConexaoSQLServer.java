@@ -18,7 +18,6 @@ public class ConexaoSQLServer {
     }
     
     public static Connection getConexao() {
-        
         Connection conn = null;
         try {
             Class.forName("net.sourceforge.jtds.jdbc.Driver");

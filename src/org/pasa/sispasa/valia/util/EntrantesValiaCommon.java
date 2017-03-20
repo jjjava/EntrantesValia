@@ -12,6 +12,7 @@ public class EntrantesValiaCommon {
     public static final String P_MAIL_SERVER = "VALIA_MAIL_SERV";
     public static final String P_MAIL_USER = "VALIA_MAIL_USER";
     public static final String P_MAIL_PASSWORD = "VALIA_MAIL_PASS";
+    public static final String P_PATH_OUT = "VALIA_FILE_PATH";
     
     public static final String TB_ASSOC_ID_FUNC = "ID_FUNCIONARIO";
     public static final String TB_ASSOC_DT_ASSOC = "DT_ASSOCIACAO";
