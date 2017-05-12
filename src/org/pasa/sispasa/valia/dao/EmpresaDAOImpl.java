@@ -14,7 +14,7 @@ import org.pasa.sispasa.valia.connection.ConexaoSQLServer;
  */
 public class EmpresaDAOImpl implements EmpresaDAO{
     
-    private final static Logger LOGGER = Logger.getLogger(EmpresaDAOImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(EmpresaDAOImpl.class);
     
     public EmpresaDAOImpl(){
     }

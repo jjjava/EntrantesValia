@@ -12,7 +12,7 @@ import org.pasa.sispasa.valia.util.JDBCUtils;
  */
 public class ConexaoSQLServer {
 
-    private final static Logger LOGGER = Logger.getLogger(ConexaoSQLServer.class);
+    private static final Logger LOGGER = Logger.getLogger(ConexaoSQLServer.class);
     
     public ConexaoSQLServer(){
     }

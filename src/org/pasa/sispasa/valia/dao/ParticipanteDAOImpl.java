@@ -16,7 +16,7 @@ import org.pasa.sispasa.valia.connection.ConexaoSQLServer;
 
 public class ParticipanteDAOImpl implements ParticipanteDAO{
     
-    private final static Logger LOGGER = Logger.getLogger(FuncionarioDAOImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(FuncionarioDAOImpl.class);
     
     public ParticipanteDAOImpl(){
     }

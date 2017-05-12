@@ -18,7 +18,7 @@ public class DateUtil {
     public static final String PATTERN_DATA = "dd.MM.yyyy";
     public static final String PATTERN_DATA2 = "ddMMyyyy";
     
-    private final static Logger LOGGER = Logger.getLogger(DateUtil.class);
+    private static final Logger LOGGER = Logger.getLogger(DateUtil.class);
 
     public static Date toDate(final String data) {
         Date retorno;

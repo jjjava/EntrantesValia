@@ -16,7 +16,7 @@ import org.pasa.sispasa.valia.connection.ConexaoSQLServer;
  */
 public class EventoDAOImpl implements EventoDAO {
 
-    private final static Logger LOGGER = Logger.getLogger(EventoDAOImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(EventoDAOImpl.class);
 
     public EventoDAOImpl() {
     }

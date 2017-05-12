@@ -23,7 +23,7 @@ public class SendEmail {
     private final String subject;
     private final String message;
 
-    private final static Logger LOGGER = Logger.getLogger(SendEmail.class);
+    private static final Logger LOGGER = Logger.getLogger(SendEmail.class);
 
     public SendEmail(List<String> lista, String subject, String message) {
         this.lista = lista;

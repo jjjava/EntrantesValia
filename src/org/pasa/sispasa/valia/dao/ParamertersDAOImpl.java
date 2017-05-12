@@ -14,7 +14,7 @@ import org.pasa.sispasa.valia.connection.ConexaoSQLServer;
  */
 public class ParamertersDAOImpl implements ParamertersDAO {
 
-    private final static Logger LOGGER = Logger.getLogger(ParamertersDAOImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(ParamertersDAOImpl.class);
 
     public ParamertersDAOImpl() {
     }

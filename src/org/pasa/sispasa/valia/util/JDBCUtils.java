@@ -15,12 +15,12 @@ public abstract class JDBCUtils {
     private JDBCUtils() {
     }
 
-    private final static Logger LOGGER = Logger.getLogger(JDBCUtils.class);
+    private static final Logger LOGGER = Logger.getLogger(JDBCUtils.class);
 
-    private final static String DB_CONNECTION_STRING = "DB_CONNECTION_STRING";
-    private final static String DB_USER = "DB_USER";
-    private final static String DB_PASSWORD = "DB_PASSWORD";
-    private final static String CONFIG_PROPERTIES = "configuracao.properties";
+    private static final String DB_CONNECTION_STRING = "DB_CONNECTION_STRING";
+    private static final String DB_USER = "DB_USER";
+    private static final String DB_PASSWORD = "DB_PASSWORD";
+    private static final String CONFIG_PROPERTIES = "configuracao.properties";
 
     public static String getDbConnectionString() {
         Properties prop = new Properties();

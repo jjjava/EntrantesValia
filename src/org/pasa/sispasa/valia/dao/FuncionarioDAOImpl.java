@@ -14,7 +14,7 @@ import org.pasa.sispasa.valia.connection.ConexaoSQLServer;
  */
 public class FuncionarioDAOImpl implements FuncionarioDAO {
 
-    private final static Logger LOGGER = Logger.getLogger(FuncionarioDAOImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(FuncionarioDAOImpl.class);
 
     public FuncionarioDAOImpl() {
     }

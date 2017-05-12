@@ -16,7 +16,7 @@ import org.pasa.sispasa.valia.model.Associado;
  */
 public class AssociadoDAOImpl implements AssociadoDAO{    
     
-    private final static Logger LOGGER = Logger.getLogger(AssociadoDAOImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(AssociadoDAOImpl.class);
     
     public AssociadoDAOImpl(){
     }

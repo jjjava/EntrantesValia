@@ -14,7 +14,7 @@ import org.pasa.sispasa.valia.util.EntrantesValiaCommon;
  */
 public class WriteFile {
 
-    private final static Logger LOGGER = Logger.getLogger(WriteFile.class);
+    private static final Logger LOGGER = Logger.getLogger(WriteFile.class);
 
     public WriteFile() {
     }
